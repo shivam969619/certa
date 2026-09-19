@@ -2,12 +2,12 @@ const vendorService = require("../services/vendorService");
 
 const {
     createCompanySchema
-} = require("../models/company");
+} = require("../models/Company");
 
 const {
     createVendorSchema,
     updateVendorStatusSchema
-} = require("../models/vendor");
+} = require("../models/Vendor");
 
 
 const createCompany = async (req, res) => {

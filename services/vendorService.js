@@ -1,6 +1,6 @@
-const companyRepository = require("../repositories/companyRepository");
+const companyRepository = require("../repositories/CompanyRepository");
 const vendorRepository = require("../repositories/vendorRepository");
-const auditRepository = require("../repositories/auditRepository");
+const auditRepository = require("../repositories/AuditRepository");
 
 const {
     redisClient

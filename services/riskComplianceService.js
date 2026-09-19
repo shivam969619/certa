@@ -1,7 +1,7 @@
-const vendorRepository = require("../repositories/vendorRepository");
+const vendorRepository = require("../repositories/vendorRepository")
 const riskRepository = require("../repositories/riskComplianceRepository");
 const complianceRepository = require("../repositories/complianceRepository");
-const auditRepository = require("../repositories/auditRepository");
+const auditRepository = require("../repositories/AuditRepository");
 
 const ensureVendorExists = async (vendorId) => {
 
